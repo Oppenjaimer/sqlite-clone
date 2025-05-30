@@ -2,7 +2,7 @@ SRC_DIR = src
 INC_DIR = include
 BUILD_DIR = build
 BIN_DIR = bin
-TARGET = $(BIN_DIR)/main
+TARGET = $(BIN_DIR)/db
 
 CC = gcc
 LIBS = 
