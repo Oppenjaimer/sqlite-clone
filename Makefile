@@ -6,7 +6,7 @@ TARGET = $(BIN_DIR)/db
 
 CC = gcc
 LIBS = 
-CFLAGS = -std=c11 -Wall -Wextra -pedantic -I$(INC_DIR)
+CFLAGS = -std=c11 -Wall -Wextra -Wno-pointer-arith -pedantic -I$(INC_DIR)
 
 SRC_FILES = $(wildcard $(SRC_DIR)/*.c)
 OBJ_FILES = $(SRC_FILES:$(SRC_DIR)/%.c=$(BUILD_DIR)/%.o)
